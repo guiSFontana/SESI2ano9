@@ -1,0 +1,12 @@
+#include <stdio.h>
+
+int main() {
+    float a, b, c, resultado;
+
+    scanf("%f %f %f", &a, &b, &c);
+
+    resultado = a * a + b * b + c * c;
+
+    printf("%.2f\n", resultado);
+    return 0;
+}
